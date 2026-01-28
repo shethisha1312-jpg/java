@@ -278,16 +278,59 @@
 // let avg=sum/mark.length;
 // console.log(`avg marks of the calss = ${avg}`);
 
-let items=[250,645,300,900,50];
-let idx=0;
-for (let val of items){
-    console.log(`value at index ${idx}=${val}`);
-    let offer = val/10;
-    items[idx] = items[idx]-offer;
-    console.log(`value after offer= ${items[idx]}`);
-    idx++;
-}
+// let items=[250,645,300,900,50];
+// let idx=0;
+// for (let val of items){
+//     console.log(`value at index ${idx}=${val}`);
+//     let offer = val/10;
+//     items[idx] = items[idx]-offer;
+//     console.log(`value after offer= ${items[idx]}`);
+//     idx++;
+
 
 // for(let i=0 ; i<items.length;i++){
+//     let offer=items[idx]/10;
+//     items[idx]-=offer;
 
-// }
+//  }
+//  console.log(items);
+
+// let  foodItems = ["potato","apple","litchi","tomato","stobary"];
+// foodItems.push("panner","chips","chesss");
+// console.log(foodItems);
+// foodItems.pop();
+// console.log(foodItems);
+
+//  let  foodItems = ["potato","apple","litchi","tomato","stobary"];
+// console.log(foodItems);
+// console.log(foodItems.toString); 
+
+// let marvelHeroes=["thor","spiderman","ironman"];
+// let dcHeroes=["superman","batman"];
+
+// let heroes=marvelHeroes.concat(dcHeroes);
+// console.log(heroes);   
+// let marvelHeroes=["thor","spiderman","ironman","antman","Dr.strang"];
+// console.log(marvelHeroes);
+
+// console.log(marvelHeroes.slice(1,3));
+
+// let arr=[1,2,3,4,5,6];
+// arr.splice(2,2,101,102);
+// //add item
+// arr.splice(2,0,105);
+
+//delete item
+// arr.splice(3,1);
+//replace item
+// arr.splice(3,1,108);
+
+// let companies=["Bloomberg","Microsoft","Uber","Google","IBM","Netflix"];
+
+// console.log(companies);
+// companies.shift();
+// companies.splice(2,1,"Ola");
+// companies.push("Amazon");
+
+
+  
